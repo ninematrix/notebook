@@ -1,5 +1,6 @@
 ## Welcome to NineMatrix's Pages
 
 
-### This is the main page for Nine Matrix,Thanks for visit.
+### 技术研发中台产品的构建
  
+技术研发中台产品的构建：该产品由`研发态`与`运行态`两个部分组成，支持不同类型不同语言的项目构建。其中运行态包含一个运行时环境为不同应用提供基础及公共能力的支撑。运行时环境的要求是 安全、稳定、轻巧 .反观Java，依赖库的安全一直是个大问题，并且由于依赖JVM也很难做到轻巧。另外涉及了低代码领域，需要部分用到`WebAssembly`技术.
