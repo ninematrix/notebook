@@ -28,6 +28,19 @@ sudo apt install rpi-imager
 - 哈尔特征检测(HAAR)
 
 
+#### 人脸数据库
+- http://www.face-rec.org/databases/
+- 耶鲁大学人脸数据库（Yalefaces），http://vision.ucsd.edu/content/yale-face-database
+- 扩展的耶鲁大学人脸数据库B，http://vision.ucsd.edu/content/extended-yale-face-database-b-b
+- 人脸数据库（来自剑桥AT&T实验室），http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
+
+#### OpenCV4 中的几种人脸识别算法
+- 特征脸(EigenFace)
+- FisherFace
+- 局部二值模式直方图(Local Binary Pattern Histogram, LBPH)
+  
+其中特征脸(EigenFace)和FisherFace来自主成份分析(Principal Component Analysis, PCA)的通用算法。
+
 ### 控制方法
 - 比例调节
 - 微分调节
