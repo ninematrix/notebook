@@ -37,9 +37,11 @@ sudo apt install rpi-imager
 #### OpenCV4 中的几种人脸识别算法
 - 特征脸(EigenFace)
 - FisherFace
-- 局部二值模式直方图(Local Binary Pattern Histogram, LBPH)
+- 局部二值模式直方图(Local Binary Pattern Histogram, `LBPH`)
   
-其中特征脸(EigenFace)和FisherFace来自主成份分析(Principal Component Analysis, PCA)的通用算法。
+其中特征脸(EigenFace)和FisherFace来自主成份分析(Principal Component Analysis, PCA)的通用算法。在OpenCV的人脸识别器中，`LBPH`的实现是唯一允许
+模型样本人脸和检测到的人脸具有不同形状、不同大小的人脸识别
+器。
 
 ### 控制方法
 - 比例调节
@@ -53,3 +55,4 @@ sudo apt install rpi-imager
 - 无监督学习(Unsupervised Learning)
 - 半监督学习(Semi-Supervised Learning)
 - 强化学习(Reinforcement Learning)
+
