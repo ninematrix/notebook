@@ -12,3 +12,10 @@ done
 #/bin/rm 16.png 32.png 48.png 128.png 256.png
 
 ```
+
+## TexLive ISO mount
+
+```shell
+mount -t iso9660 -o ro,loop,noauto ./texlive.iso /mnt
+
+```
