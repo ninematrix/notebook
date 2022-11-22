@@ -29,8 +29,23 @@ sudo sysctl -w kernel.perf_event_paranoid=1
 
 
 
+## linux 审计
+- [Linux 审计:美国国防部常见的审计要求](https://blog.51cto.com/u_7492110/1753095)
+- [深入linux审计日志](https://nettingsisyphus.tech/2020/11/17/linux-audit-guide/)
+- [Linux审计系统](https://zhuanlan.zhihu.com/p/337289840)
+- [Linux审计系统使用详解](https://zgao.top/linux%E5%AE%A1%E8%AE%A1%E5%B7%A5%E5%85%B7auditd%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/)
+- [Ubuntu三级等保检查命令](https://www.cnblogs.com/aqicheng/p/14668187.html)
+- [SUSE - 了解Linux审计](https://documentation.suse.com/zh-cn/sled/15-SP3/html/SLED-all/cha-audit-comp.html)
 
 
+## Unix Bench 跑分工具
+```shell
+wget https://s3.amazonaws.com/cloudbench/software/UnixBench5.1.3.tgz
+tar zxf UninxBench5.1.3.tgz
+cd UnixBench
+make all
+,/Run
+```
 
 ## reference
 - [Logo Design Site](https://www.designevo.com/cn/apps/logo/)
