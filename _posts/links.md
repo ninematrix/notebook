@@ -52,3 +52,6 @@ make all
 - [Z-Library on Onion web](http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/)
 - [Linux performance](https://www.brendangregg.com/linuxperf.html)
 - [Linux 内存管理](https://zhuanlan.zhihu.com/p/452427150)
+- [Git Pro](https://git-scm.com/book/zh/v2/)
+- [RustDesk源码阅读](https://cloud.tencent.com/developer/article/1897847)
+
