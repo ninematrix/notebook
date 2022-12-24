@@ -62,5 +62,11 @@ OpenSSL>engine dynamic -pre SO_PATH:/usr/lib/engines/engine_pkcs11.so -pre ID:pk
 
 ```
 
+使用token中的证书ssh
+```
+ssh -I /usr/lib/libeToken.so smartcard@server
+```
+
+
 ## REF
 - [Using tokens in Ubuntu with PGP](https://craftware.xyz/securitybricks/2017/07/17/using-tokens-in-Ubuntu-with-pgp.html)
